@@ -12,4 +12,7 @@ loot = {
 
 if __name__ == "__main__":
     loot_table = LootTable(loot)
-    print("Chosen Loot: " + f"{loot_table.pick_loot()}")
+    print("How many do you want to generate?")
+    count = int(input())
+    for i in range(count):
+        print(f"{i+1}/{count}" + " Chosen Loot: " + f"{loot_table.pick_loot()}")
