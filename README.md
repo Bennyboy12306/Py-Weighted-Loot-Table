@@ -1,8 +1,8 @@
 # Py-Weighted-Loot-Table
  A simple weighted loot table
 
- I mainly created this as quick way to help me with learning python
- This is a python re-wrtite of C++ code from the game I am making
+ I mainly created this as quick way to help me with learning python.
+ This is a python re-wrtite of C++ code from the game I am making.
  It can be used for weighted loot tables for games or just anything that you want to use a weighted random for
 
 ### How it works:
