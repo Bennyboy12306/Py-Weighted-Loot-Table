@@ -12,3 +12,5 @@
 - For example an item with a weight of 10 is 10 times more likely to be picked than a weight of 1 and twice as likely as a weight of 5
 - You don't have to start your weights at 1, You can start at any positive number
 - You can edit the loot dict to change loot and its weight
+
+https://github.com/Bennyboy12306
