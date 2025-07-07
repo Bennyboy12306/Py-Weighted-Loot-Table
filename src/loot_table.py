@@ -15,7 +15,7 @@ class LootTable:
     def pick_loot(self):
         stored_random = random.uniform(0, self.sum_loot())
         for key, weight in self.loot.items():
-            if stored_random < weight:
+            if stored_random <= weight:
                 return key
             else:
                 stored_random -= weight
